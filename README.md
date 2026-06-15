@@ -4,13 +4,13 @@
 
 AI Support Ticket Analyzer is a Streamlit-based application that analyzes customer support tickets using Artificial Intelligence and anomaly detection techniques.
 
-The application allows users to:
+The application enables users to:
 
-- Load support ticket data from an Excel file
+- Load support ticket data from an Excel dataset
 - Ask natural language questions about support tickets
 - Detect anomalies in ticket handling
 - Analyze ticket statistics and performance metrics
-- View support ticket data through an interactive dashboard
+- View support ticket insights through an interactive dashboard
 
 ---
 
@@ -41,7 +41,7 @@ Users can ask questions such as:
 The system detects:
 
 - Tickets with unusually high resolution times
-- Critical tickets that are not yet resolved
+- Critical tickets that remain unresolved
 
 ### Interactive Dashboard
 
@@ -60,10 +60,10 @@ Built using Streamlit with:
 Support Tickets Dataset (Excel)
             │
             ▼
-      Pandas Loader
+      Pandas Data Loader
             │
             ▼
-      Query Engine
+        Query Engine
             │
             ├── Rule-Based Analytics
             │
@@ -138,6 +138,12 @@ GROQ_API_KEY=your_groq_api_key
 streamlit run app.py
 ```
 
+Open the application in your browser:
+
+```text
+http://localhost:8501
+```
+
 ---
 
 ## Example Queries & Outputs
@@ -199,7 +205,7 @@ The application identifies:
 1. Tickets with unusually long resolution times.
 2. Critical tickets that remain unresolved.
 
-These anomalies are displayed directly in the dashboard with detailed records.
+Detected anomalies are displayed directly in the dashboard along with the corresponding ticket records.
 
 ---
 
@@ -208,17 +214,18 @@ These anomalies are displayed directly in the dashboard with detailed records.
 - Query engine currently supports a predefined set of business questions.
 - Complex analytical queries may require additional query rules.
 - Groq API key must be configured locally using a `.env` file.
-- The application currently uses a local Excel dataset and does not connect to a live ticketing system.
+- The application currently uses a local Excel dataset and does not connect to a live ticketing platform.
 
 ---
 
 ## Future Improvements
 
-- Support dynamic query generation using LLM-driven dataframe analysis.
-- Add visual analytics and charts.
-- Deploy the application on Streamlit Cloud.
-- Connect to real-time ticketing systems and databases.
-- Add REST API endpoints using FastAPI.
+- Dynamic dataframe analysis using LLM-generated queries
+- Advanced visualizations and charts
+- Streamlit Cloud deployment
+- Real-time database integration
+- FastAPI REST API support
+- Enhanced anomaly detection techniques
 
 ---
 
@@ -228,4 +235,4 @@ These anomalies are displayed directly in the dashboard with detailed records.
 
 B.Tech – Computer Science Engineering (AI & DS)
 
-Skills: Python, SQL, Machine Learning, Deep Learning, LLM, RAG, GenAI, Streamlit
+Skills: Python, SQL, Machine Learning, Deep Learning, Power BI, GenAI, Streamlit
