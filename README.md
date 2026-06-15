@@ -244,6 +244,6 @@ Detected anomalies are displayed directly in the dashboard along with the corres
 
 B.Tech – Computer Science Engineering (AI & DS)
 
-Skills: Python, SQL, Machine Learning, Deep Learning, Power BI, GenAI, Streamlit
+Skills: Python, SQL, Machine Learning, Deep Learning, LLM, RAG, GenAI, Streamlit
 
 ---
