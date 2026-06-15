@@ -228,6 +228,15 @@ Detected anomalies are displayed directly in the dashboard along with the corres
 - Enhanced anomaly detection techniques
 
 ---
+## Application Screenshots
+
+- **Dashboard** → [View Image](screenshots/AI%20Support%20Ticket%20Analyzer%20Dashbord.png)
+
+- **Query and Answer** → [View Image](screenshots/Query%20and%20Answer.png)
+
+- **Anomaly Detection** → [View Image](screenshots/Anomaly%20Detection.png)
+
+---
 
 ## Author
 
